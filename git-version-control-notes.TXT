@@ -9,6 +9,8 @@
 
 7) git reverse (file name) : is reverse the change of file that resently occured
 
+8) git rm --cached -r . : for reemoving file in git stageding area
+
 GitHub and Remote Repositories :
 1) create remote repo in your git hub account
 2) type command : git remote add origin (url which copy from repo):this  command  create  remote working directory name origin 
@@ -20,6 +22,20 @@ GitHub and Remote Repositories :
 Gitignore :
 1) if we don't want some file on git like seceret files contains  password ,api key , url , some setting , or aws api key 
    because of these we use gitignore
+2) write name of file which you want to ignore in gitignore 
+3) then commit 
+
+Branching And Merging:
+
+1(master)---2----3---4----
+	    |        /
+            |       /
+	    3-----4
 
 
- 
+a) to create anoter branch of your project  type command : git branch (branch-name)
+b)  to see which branch are you in type command : git branch
+    star (*) branch name  indicate current branch
+c) to move in next branch type command : git cheakout (branch-name)
+d) to move branch to remote github type command : git push --set-upstream origin aline-plot
+
