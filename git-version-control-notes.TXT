@@ -37,3 +37,5 @@ a) to create anoter branch of your project  type command : git branch (branch-na
 b)  to see which branch are you in type command : git branch
     star (*) branch name  indicate current branch
 c) to move in next branch type command : git cheakout (branch-name)
+d) to move branch to remote github type command : git push --set-upstream origin aline-plot
+
