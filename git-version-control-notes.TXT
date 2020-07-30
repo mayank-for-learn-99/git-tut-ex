@@ -17,4 +17,9 @@ GitHub and Remote Repositories :
 3)type command : git push -u origin master :transfer the local files into remote directory
  3.1) master : is name of my root  
 
+Gitignore :
+1) if we don't want some file on git like seceret files contains  password ,api key , url , some setting , or aws api key 
+   because of these we use gitignore
+
+
  
