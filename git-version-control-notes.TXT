@@ -1,0 +1,20 @@
+1) git init : to start version control
+2) git add . or git add (fileName) : to add file in version control
+3) git commit -m "messae" : to commite the changes
+4) git status : give what status of current  working directory  , let you see  which file cange and which not 
+5) git log : command allows you to view information about previous commits that have occurred in a project. 
+             The simplest version of the log command shows the commits that lead up to the state of the currently checked out branch. 
+             These commits are shown in reverse chronological order (the most recent commits first
+6) git diff (file name) : is allow to view change content of file 
+
+7) git reverse (file name) : is reverse the change of file that resently occured
+
+GitHub and Remote Repositories :
+1) create remote repo in your git hub account
+2) type command : git remote add origin (url which copy from repo):this  command  create  remote working directory name origin 
+ 2.1)  origin : is name of my remote
+ 2.2)  this create remote
+3)type command : git push -u origin master :transfer the local files into remote directory
+ 3.1) master : is name of my root  
+
+ 
